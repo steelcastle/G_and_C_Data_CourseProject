@@ -12,8 +12,8 @@ output:
 The aim of this project is to put into practice the accepted processes
 of creating "tidy" data. Processes and tools that have been presented 
 during the Getting and Cleaning Data course are used to take raw data
-from a "real-world" experiment and provide an R script file [run_analysis.R]() that
-performs the cleaning of the raw data files, the [tidy data]() output file
+from a "real-world" experiment and provide an R script file [run_analysis.R](https://github.com/steelcastle/G_and_C_Data_CourseProject/blob/master/run_analysis.R) that
+performs the cleaning of the raw data files, the [tidy data](https://github.com/steelcastle/G_and_C_Data_CourseProject/blob/master/tidydata.txt) output file
 along with an explanatory [README](#) markdown file and the [Codebook](https://github.com/steelcastle/G_and_C_Data_CourseProject/blob/master/Codebook.md) markdown file describing the values in the tidy data set produced after running the R script.
 
 ##Study design and data processing ##
@@ -57,7 +57,7 @@ Taken from the researchers' website [HAR@SMARTLAB](https://sites.google.com/site
 ###Guide to create the tidy data file ##
 Raw data is downloaded from here: [Human Activity Recognition Using Smartphones Data Set - UCI Machine Learning Repository](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-These raw data files are stored in the working directory. For the purposes of this assignment, it is assumed that these files are present therein prior to running the R script [run_analysis.R]().
+These raw data files are stored in the working directory. For the purposes of this assignment, it is assumed that these files are present therein prior to running the R script [run_analysis.R](https://github.com/steelcastle/G_and_C_Data_CourseProject/blob/master/run_analysis.R).
 
 ###Cleaning of the data
 
