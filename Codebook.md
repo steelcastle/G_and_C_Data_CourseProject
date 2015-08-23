@@ -30,11 +30,10 @@ subjects in total).
 ###Variables within tidydata
 Short description of what the variable describes.
 
-**_NOTE:_**
+**_NOTE: _**In all of the measurement variable names, feature substrings have the following meanings.
 
-In all of the measurement variables, the text tokens have the following meanings.
 
-Token Description | Meaning
+Feature Substring Description | Meaning
 ----------------- | -------
 t | Prefix denoting time domain signals captured at a constant rate of 50 Hz.
 f | Prefix to indicate frequency domain signals - Fast Fourier Transform applied to time based signals. 
@@ -44,12 +43,12 @@ Gravity | Signal based on gravity, the force that attracts a body towards the ce
 Gyro | 3-axial measurement taken from gyroscope 
 Jerk | Measurement of the rate of change of the acceleration, based on body acceleration and angular velocity
 Mag | Measurement of the magnitude of the Euclidean norm (i.e. length of a vector from the origin) of a three-dimensional signal
-Mean | Indicates that the measurement is a mean (normailized to line in the range [-1,1])
+Mean | Indicates that the measurement is a mean (values normalized to lie within the range [-1,1])
 MeanOf | Measurement is a mean calculated over all observations for a particular activity ans subject.
-StdDev | Measurement is a standard deviation 
+StdDev | Measurement is a standard deviation (values normalized to lie within the range [-1,1])
 X, Y, Z | Measurement taken in one of the three dimensions considered
 
-
+### Variable characteristics ###
 
 Column variable  | Class | Value
 ------------- | ------------- | -------------
