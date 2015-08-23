@@ -9,7 +9,7 @@ output:
 # Overview #
 This codebook is a required element of the course project submission for the online course
 *Getting and Cleaning Data* offered by Johns Hopkins University through Coursera.
-For more background information, please consult the accompanying [README]() file.
+For more background information, please consult the accompanying [README](https://github.com/steelcastle/G_and_C_Data_CourseProject/blob/master/README.md) file.
 
 ## Prerequisites ##
 The analysis script requires that the raw data source files be present in the working directory. The **_dplyr_** package must also be loaded.

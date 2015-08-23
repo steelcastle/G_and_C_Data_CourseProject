@@ -14,7 +14,7 @@ of creating "tidy" data. Processes and tools that have been presented
 during the Getting and Cleaning Data course are used to take raw data
 from a "real-world" experiment and provide an R script file [run_analysis.R]() that
 performs the cleaning of the raw data files, the [tidy data]() output file
-along with an explanatory [README]() markdown file and the [Codebook]() markdown file describing the values in the tidy data set produced after running the R script.
+along with an explanatory [README](#) markdown file and the [Codebook](https://github.com/steelcastle/G_and_C_Data_CourseProject/blob/master/Codebook.md) markdown file describing the values in the tidy data set produced after running the R script.
 
 ##Study design and data processing ##
 
@@ -68,7 +68,7 @@ These raw data files are stored in the working directory. For the purposes of th
 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Description of the variables in the tidydata.txt file
-Please refer to the [Codebook.md]() file for details on the layout of the tidy data set file and the variables contained therein.
+Please refer to the [Codebook.md](https://github.com/steelcastle/G_and_C_Data_CourseProject/blob/master/Codebook.md) file for details on the layout of the tidy data set file and the variables contained therein.
 
 
 
