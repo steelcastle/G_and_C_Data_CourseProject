@@ -42,7 +42,7 @@ cutoff frequency was used. From each window, a vector of features was obtained
 by calculating variables from the time and frequency domain.*
 
 ## Summary of raw data sets
-Taken from The researchers' website [HAR@SMARTLAB](https://sites.google.com/site/harsmartlab/):
+Taken from the researchers' website [HAR@SMARTLAB](https://sites.google.com/site/harsmartlab/):
 
 >Human Activity Recognition database built from the recordings of 30 subjects performing basic activities and postural transitions while carrying a waist-mounted smartphone with embedded inertial sensors.
 - Data Set Characteristics: Multivariate, Time-Series
@@ -62,7 +62,7 @@ These raw data files are stored in the working directory. For the purposes of th
 ###Cleaning of the data
 
 1. Merge the training and the test sets to create one data set.
-2. Extract only the measurements on the mean and standard deviation for each measurement. 
+2. Extract only the measurements on the mean and standard deviation for each measurement. **_NOTE: Only those variables that represent the mean and standard deviation of the various measurements are to be extracted, i.e. the script will select only those variables that contain the strings "mean()" or "std()" in the variable name. This should represent a total of 66 distinct variables (dataset columns)._**
 3. Use descriptive activity names to name the activities in the data set
 4. Appropriately label the data set with descriptive variable names. 
 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.

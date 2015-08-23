@@ -14,8 +14,11 @@ For more background information, please consult the accompanying [README](https:
 ## Prerequisites ##
 The analysis script requires that the raw data source files be present in the working directory. The **_dplyr_** package must also be loaded.
 
+## Notes on data grooming ##
+Although the names of variables are somewhat cryptic, a small effort is made to groom those names to remove unwanted parentheses and change the strings "mean" and "std" to "Mean" and "StdDev" respectively.
+
 ##Description of the variables in the tidydata.txt file
-The run_analysis.R script will output a text file named  [tidydata.txt]() in the working directory.
+The run_analysis.R script will output a text file named  [tidydata.txt](https://github.com/steelcastle/G_and_C_Data_CourseProject/blob/master/tidydata.txt) in the working directory.
 
 The resulting dataset dimensions are 180 rows by 68 columns. Each row represents the mean of
 observed variables aggregated by activity and subject id. The first column represents the
