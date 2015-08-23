@@ -30,7 +30,7 @@ subjects in total).
 ###Variables within tidydata
 Short description of what the variable describes.
 
-**_NOTE: _**In all of the measurement variable names, feature substrings have the following meanings.
+**NOTE:** In all of the measurement variable names, feature substrings have the following meanings.
 
 
 Feature Substring Description | Meaning
