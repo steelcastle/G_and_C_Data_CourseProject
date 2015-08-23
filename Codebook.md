@@ -33,7 +33,7 @@ Short description of what the variable describes.
 **NOTE:** In all of the measurement variable names, feature substrings have the following meanings.
 
 
-Feature Substring Description | Meaning
+Feature Substring | Meaning
 ----------------- | -------
 t | Prefix denoting time domain signals captured at a constant rate of 50 Hz.
 f | Prefix to indicate frequency domain signals - Fast Fourier Transform applied to time based signals. 
