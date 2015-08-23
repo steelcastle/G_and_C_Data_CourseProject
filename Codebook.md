@@ -22,7 +22,7 @@ The run_analysis.R script will output a text file named  [tidydata.txt](https://
 
 The resulting dataset dimensions are 180 rows by 68 columns. Each row represents the mean of
 observed variables aggregated by activity and subject id. The first column represents the
-specific activity being observed (5 activities in total) and the second column identified the
+specific activity being observed (6 activities in total) and the second column identified the
 specific subject carrying out that activity. Each subsequent column represents the calculated
 mean value of the measured variable across the set of observations for each subject (30
 subjects in total).
