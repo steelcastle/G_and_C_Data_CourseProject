@@ -57,15 +57,15 @@ Taken from the researchers' website [HAR@SMARTLAB](https://sites.google.com/site
 ###Guide to create the tidy data file ##
 Raw data is downloaded from here: [Human Activity Recognition Using Smartphones Data Set - UCI Machine Learning Repository](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-These raw data files are stored in the working directory. For the purposes of this assignment, it is assumed that these files are present therein prior to running the R script [run_analysis.R](https://github.com/steelcastle/G_and_C_Data_CourseProject/blob/master/run_analysis.R).
+These raw data files are stored in the working directory. For the purposes of this assignment, it is assumed that these files are present therein prior to running the R script [run_analysis.R](https://github.com/steelcastle/G_and_C_Data_CourseProject/blob/master/run_analysis.R). Please note that the **_dplyr_** package must also be loaded.
 
 ###Cleaning of the data
 
 1. Merge the training and the test sets to create one data set.
 2. Extract only the measurements on the mean and standard deviation for each measurement. **_NOTE: Only those variables that represent the mean and standard deviation of the various measurements are to be extracted, i.e. the script will select only those variables that contain the strings "mean()" or "std()" in the variable name. This should represent a total of 66 distinct variables (dataset columns)._**
-3. Use descriptive activity names to name the activities in the data set
+3. Use descriptive activity names to name the activities in the data set. **_The activity name set is comprised of "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"._**
 4. Appropriately label the data set with descriptive variable names. 
-5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject. **_NOTE: The resulting output file is alphabetically ordered by activity and in ascending numerical order by subject id._**
 
 ##Description of the variables in the tidydata.txt file
 Please refer to the [Codebook.md](https://github.com/steelcastle/G_and_C_Data_CourseProject/blob/master/Codebook.md) file for details on the layout of the tidy data set file and the variables contained therein.

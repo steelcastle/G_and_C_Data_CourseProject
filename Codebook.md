@@ -15,7 +15,7 @@ For more background information, please consult the accompanying [README](https:
 The analysis script requires that the raw data source files be present in the working directory. The **_dplyr_** package must also be loaded.
 
 ## Notes on data grooming ##
-Although the names of variables are somewhat cryptic, a small effort is made to groom those names to remove unwanted parentheses and change the strings "mean" and "std" to "Mean" and "StdDev" respectively.
+Although the names of variables are somewhat cryptic, a small effort is made to groom those names to remove unwanted parentheses and change the strings "mean" and "std" to "Mean" and "StdDev" respectively. 
 
 ##Description of the variables in the tidydata.txt file
 The run_analysis.R script will output a text file named  [tidydata.txt](https://github.com/steelcastle/G_and_C_Data_CourseProject/blob/master/tidydata.txt) in the working directory.
@@ -29,6 +29,27 @@ subjects in total).
 
 ###Variables within tidydata
 Short description of what the variable describes.
+
+**_NOTE:_**
+
+In all of the measurement variables, the text tokens have the following meanings.
+
+Token Description | Meaning
+----------------- | -------
+t | Prefix denoting time domain signals captured at a constant rate of 50 Hz.
+f | Prefix to indicate frequency domain signals - Fast Fourier Transform applied to time based signals. 
+Acc | 3-axial measurement taken from accelerometer 
+Body | Signal based on the body of an experiment participant
+Gravity | Signal based on gravity, the force that attracts a body towards the center of objects (in this case, the Earth)
+Gyro | 3-axial measurement taken from gyroscope 
+Jerk | Measurement of the rate of change of the acceleration, based on body acceleration and angular velocity
+Mag | Measurement of the magnitude of the Euclidean norm (i.e. length of a vector from the origin) of a three-dimensional signal
+Mean | Indicates that the measurement is a mean (normailized to line in the range [-1,1])
+MeanOf | Measurement is a mean calculated over all observations for a particular activity ans subject.
+StdDev | Measurement is a standard deviation 
+X, Y, Z | Measurement taken in one of the three dimensions considered
+
+
 
 Column variable  | Class | Value
 ------------- | ------------- | -------------
